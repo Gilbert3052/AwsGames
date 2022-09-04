@@ -1,0 +1,407 @@
+
+:root{
+    --whiteLess: #f5f5f5;
+    --white: #fff;
+    --bgGeneral: rgb(18, 18, 18);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bgGeneral);
+    color: var(--whiteLess);
+    font-family: "Brutal", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white)
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 1.5em;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background-color: var(--bgGeneral);
+}
+
+.nav span{
+    width: 10%;
+    font-size: 1.5em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    gap: 1em;
+    background-color: rgb(18, 18, 18);
+
+    transform: translateX(100%);
+    transition: transform 0.5s;
+}
+
+.nav a {
+    cursor: pointer;
+}
+
+.icon__menu {
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.show_menu {
+    transform: translateX(0);
+}
+/* 
+.bx-cart {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 10000;
+}
+
+.content_cart {
+    width: 50vw;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 0.5s;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    padding: 1rem;
+}
+
+.x {
+    color: black;
+}
+
+.content_cart-body {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    overflow-y: scroll;
+}
+
+.item_cart {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.item_cart-img {
+    width: 50%;
+}
+
+.content_cart-total {
+    height: 10%;
+    background-color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_cart-show {
+    transform: translateX(0);
+} */
+
+
+.main {
+    padding: 10% 0;
+}
+.home-Slider {
+    margin: 0 2em 0 2em;
+    max-width: 1440px;
+    height: 600px;
+    overflow: hidden;
+}
+.item_header{
+    border-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;
+    overflow: hidden;
+    color: var(--white);
+}
+
+.info__header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 5% 5%;
+    gap: .3em;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.less-size {
+    font-size: 9px;
+}
+.logo-info {
+    width: 50%;
+}
+.logo-info img{
+    width: 100%;
+    height: 100%;
+}
+.Content-Slider {
+    margin: 0 2em 6em 2em;
+    max-width: 1440px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.swiper-pagination {
+    padding-bottom: 4em;
+}
+
+span.swiper-pagination-bullet {
+    background-color: gray;
+}
+
+    /* Imagenes Mobiles para la sección de noticias */
+
+.item1{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(https://cdn2.unrealengine.com/egs-cotw-angler-carousel-mobile-1200x1600-90f53cda026c.jpg?h=854&resize=1&w=640);
+}
+.item2{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(https://cdn2.unrealengine.com/egs-uncharted-carousel-mobile-1200x1600-14ce8ddaffb5.jpg?h=854&resize=1&w=640);
+}
+.item3{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(https://cdn2.unrealengine.com/egs-rawmen-carousel-mobile-1200x1600-d66e04489a76.jpg?h=854&resize=1&w=640);
+}
+.item4{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(https://cdn2.unrealengine.com/egs-d2-event-sale-carousel-mobile-1200x1600-93413665e78d.jpg?h=854&resize=1&w=640);
+}
+.item5{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(https://cdn2.unrealengine.com/egs-pcbs2-carousel-mobile-1200x1600-f5eff17d3b36.png?h=854&resize=1&w=640);
+}
+.item6{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(https://cdn2.unrealengine.com/egs-di2-carousel-mobile-1200x1600-aa33972033df.jpg?h=854&resize=1&w=640);
+}
+
+
+    /* Imagenes de los Sliders */
+
+.item1-1 {
+    margin-bottom: 8px;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.sizingImg {
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    height: 65%;
+}
+
+.item__img {
+    padding-bottom: 90px;
+}
+
+.item__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-slider {
+    transition: transform .5s; 
+}
+
+.img-slider:hover {
+    transform: scale(1.05); 
+}
+
+.item__info {
+    text-align: center;
+}
+
+.item__info_destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+p.item_text{
+    padding-bottom: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--white);
+}
+
+.comprar p {
+    padding-right: 10px;
+}
+
+.comprar {
+    display: flex;
+    align-items: center;
+}
+
+/* Titulos h2 de cada seccion*/
+.Title {
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    font-size: 1.1em;
+}
+
+.Title span {
+    font-size: .5em;
+}
+
+
+/* Button */
+
+.bx {
+    cursor: pointer;
+}
+
+
+/* Pantalla 768px */
+
+@media only screen and (min-width: 768px) {
+    .menu {
+        position: static;
+        background-color: transparent;
+        right: 3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+        padding: 1rem 2em;
+        gap: 1em;
+        transform: translateX(0);
+    }
+
+    .main {
+        padding: 5%;
+    }
+
+    .home-Slider {
+        margin: 4em 2em 0 2em;
+        max-width: 1440px;
+        height: 850px;
+        overflow: hidden;
+    }
+
+    .item1{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn2.unrealengine.com/egs-cotw-angler-carousel-desktop-1248x702-f2e90f29f71e.jpg?h=720&resize=1&w=1280);
+    }
+    .item2{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn2.unrealengine.com/egs-uncharted-carousel-desktop-1920x1080-cc2000a16640.jpg?h=720&resize=1&w=1280);
+    }
+    .item3{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn2.unrealengine.com/egs-rawmen-carousel-desktop-1248x702-ca1ec69c1718.jpg?h=720&resize=1&w=1280);
+    }
+    .item4{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn2.unrealengine.com/egs-d2-event-sale-carousel-desktop-1920x1080-ef7fcd53d799.jpg?h=720&resize=1&w=1280);
+    }
+    .item5{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn2.unrealengine.com/egs-pcbs2-carousel-desktop-1248x702-35dc5997993c.png?h=720&resize=1&w=1280);
+    }
+    .item6{
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn2.unrealengine.com/egs-di2-carousel-desktop-1920x1080-8c0c3775bb3a.jpg?h=720&resize=1&w=1280);
+    }
+
+    .sizingImg {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 65%;
+    }
+
+    .item_header{
+        justify-content: center;
+        gap: 5em;
+    }
+
+    .info__header {
+        width: 70%;
+        font-size: 16px;
+        padding-top: 20%;
+    }
+
+    .less-size {
+        font-size: 14px;
+        padding: 1.5em 0 1em;
+    }
+
+    .swiper-pagination {
+        padding-bottom: 11em;
+    }
+
+    .icon__menu {
+        display: none;
+    }
+
+    .Title {
+        font-size: 1.5em;
+    }
+    
+    .Title span {
+        font-size: .7em;
+    }
+    
+}
+
+/* Pantalla 1200px */
+
+@media only screen and (min-width: 1200px) {
+    .main {
+        padding: 0 10%;
+    }
+
+    .info__header {
+        width: 50%;
+        font-size: 16px;
+    }
+}

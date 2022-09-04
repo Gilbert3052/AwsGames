@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aws Games</title>
+</head>
+<body>
+    
+    <div class="nav">
+        <span>AwsGames</span>
+        <ul class="menu" id="menu">
+            <li><a href="#Noticias">Noticias</a></li>
+            <li><a href="#Destacados">Destacados</a></li>
+            <li><a href="#Recientes">Recientes</a></li>
+            <li><a href="#Populares">Populares</a></li>
+        </ul>
+        <!-- <i class='bx bx-cart-alt' id="icon_cart"></i> -->
+        <span class="icon__menu " id="iconMenu">☰</span>
+<!-- 
+        <div class="content_cart" id="contentCart">
+            <div class="content_cart-body">
+                <i class="bx x bx-lg"></i>
+            </div>
+            <div class="content_cart-total">
+                <h3>Total: <span id="total"></span></h3>
+            </div> -->
+        </div>
+    </div>
+
+    
+    
+    <div class="main">
+        
+        <div class="home-Slider swiper" id="Noticias">
+            <h2 class="Title">Noticias<span>></span></h2>
+            <div class="contain-header swiper-wrapper">
+                <div class="item1 item_header swiper-slide sizingImg">
+
+                    <div class="info__header">
+                        <span>
+                            <div class="logo-info">
+                                <img src="https://cdn2.unrealengine.com/egs-cotw-angler-carousel-logo-350x71-3d3b60b9fdb5.png" alt="logo-info1">
+                            </div>
+                        </span>
+                        <span class="less-size">Ya Disponible</span>
+                        <span>Disfruta de la libertad de pescar en un mundo abierto lleno de vida. Explora entornos espectaculares y pesca por tu cuenta o con amigos.</span>
+                    </div>
+                </div>
+    
+                <div class="item_header item2 swiper-slide sizingImg">
+                    <div class="info__header">
+                        <span>
+                            <div class="logo-info">
+                                <img src="https://cdn2.unrealengine.com/egs-uncharted-carousel-logo-350x92-83f0bd892968.png" alt="logo-info2">
+                            </div>
+                        </span>
+                        <span class="less-size">PRÓXIMAMENTE</span>
+                        <span>Consigue las dos aventuras remasterizadas y aclamadas por la crítica UNCHARTED 4: El desenlace del ladrón y UNCHARTED: El legado perdido.</span>
+                    </div>
+                </div>
+    
+                <div class="item_header item3 swiper-slide sizingImg">
+                    <div class="info__header">
+                        <span>
+                            <div class="logo-info">
+                                <img src="https://cdn2.unrealengine.com/egs-rawmen-carousel-logo-350x171-1da22e80bb3a.png" alt="logo-info3">
+                            </div>
+                        </span>
+                        <span class="less-size">BETA ABIERTA: 2-5 SEPTIEMBRE</span>
+                        <span>¡La BETA ABIERTA DE RAWMEN significa que todo el mundo está invitado a la pelea con comida!</span>
+                    </div>
+                </div>
+    
+                <div class="item_header item4 swiper-slide sizingImg">
+                    <div class="info__header">
+                        <span>
+                            <div class="logo-info">
+                                <img src="https://cdn2.unrealengine.com/es-egs-event-sale-carousel-logo-350x50-ac6e1a4c76d1.png" alt="logo-info4">
+                            </div>
+                        </span>
+                        <span class="less-size">ÚLTIMA OPORTUNIDAD PARA AHORRAR</span>
+                        <span>El tiempo se acaba. Ahorra hasta un 75 % en juegos y complementos durante las Rebajas del evento de agosto. Las ofertas terminan el 6 de septiembre.</span>
+                    </div>
+                </div>
+    
+                <div class="item_header item5 swiper-slide sizingImg">
+                    
+                    <div class="info__header">
+                        <span>
+                            <div class="logo-info">
+                                <img src="https://cdn2.unrealengine.com/egs-pcbs2-carousel-logo-350x63-1c35f6f27912.png" alt="logo-info5">
+                            </div>
+                        </span>
+                        <span class="less-size">Próximamente</span>
+                        <span>Suéñalo. Móntalo. Ponlo a prueba. ¡Añádelo ya a tu lista de deseos!</span>
+                    </div>
+                </div>
+    
+                <div class="item_header item6 swiper-slide sizingImg">
+                    <div class="info__header">
+                        <span>
+                            <div class="logo-info">
+                                <img src="https://cdn2.unrealengine.com/egs-di2-carousel-logo-362x149-9cffb7d13f72.png" alt="logo-info6">
+                            </div>
+                        </span>
+                        <span class="less-size">A partir del 3 de febrero</span>
+                        <span>Precómpralo ya y consigue el pase de expansión, con nuevo contenido y más aventuras en esta versión infernal de Los Ángeles.</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            
+        </div>
+
+        <div class="Content-Slider sswiper" id="Destacados">
+            <h2 class="Title">Destacados <span>></span></h2>
+            <div class="destacado_swiper swiper-wrapper">
+
+            </div>
+            
+        </div>
+        
+        <section class="Content-Slider sswiper" id="Recientes">
+            <h2 class="Title">Actualizados Recientemente <span>></span></h2>
+            <div class="recent_swiper swiper-wrapper">
+                
+            </div>
+        </section>
+
+        <section class="Content-Slider sswiper" id="Populares">
+            <h2 class="Title">Populares <span>></span></h2>
+            <div class="popular_swiper swiper-wrapper">
+                
+            </div>
+        </section>
+
+        <section class="novedades">
+
+        </section>
+
+    </div>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
