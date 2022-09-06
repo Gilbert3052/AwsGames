@@ -1,7 +1,9 @@
 var swiper = new Swiper(".sswiper", {
-    slidesPerView: 1,
-    spaceBetween: 20,
     breakpoints: {
+        100: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
         510: {
             slidesPerView: 2,
             spaceBetween: 20
@@ -23,7 +25,7 @@ var swiper = new Swiper(".sswiper", {
         delay: 5000,
         disableOnInteraction: false
         },
-    loop: true,
+    loop: false,
     });
 
 var swiper1 = new Swiper(".swiper", {

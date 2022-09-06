@@ -11,12 +11,12 @@ function printDestacados(elementHTML, data) {
                 <div class="item1-1 item sizingImg">
                     <img class="img-slider" src="${urlImages}" alt="${name}">
                 </div>
-                <div class="item__info_destacados " id="${id}">
+                <div class="item__info_destacados ">
                     <p class="item_text">${name}</p>
-                    <div class="comprar">
-                    <p>Stock: ${stock}</p>
-                    <p>/  Price: $${price}</p>
-                    <i class="bx bx-cart-add bx-sm bx-tada-hover"></i>
+                    <div class="comprar" id="${id}">
+                        <p id="stock">Stock: ${stock}</p>
+                        <p>/  Price: $${price}</p>
+                        <i class="bx bx-cart-add bx-sm bx-tada-hover"></i>
                     </div>
                     
                 </div>
@@ -41,12 +41,12 @@ function printRecent(elementHTML, data) {
                 <div class="item1-1 item sizingImg">
                     <img class="img-slider" src="${urlImages}" alt="${name}">
                 </div>
-                <div class="item__info_destacados " id="${id}">
+                <div class="item__info_destacados ">
                     <p class="item_text">${name}</p>
-                    <div class="comprar">
-                    <p>Stock: ${stock}</p>
-                    <p>/  Price: $${price}</p>
-                    <i class="bx bx-cart-add bx-sm bx-tada-hover"></i>
+                    <div class="comprar" id="${id}">
+                        <p>Stock: ${stock}</p>
+                        <p>/  Price: $${price}</p>
+                        <i class="bx bx-cart-add bx-sm bx-tada-hover"></i>
                     </div>
                     
                 </div>
@@ -71,12 +71,12 @@ function printPopular(elementHTML, data) {
                 <div class="item1-1 item sizingImg">
                     <img class="img-slider" src="${urlImages}" alt="${name}">
                 </div>
-                <div class="item__info_destacados " id="${id}">
+                <div class="item__info_destacados ">
                     <p class="item_text">${name}</p>
-                    <div class="comprar">
-                    <p>Stock: ${stock}</p>
-                    <p>/  Price: $${price}</p>
-                    <i class="bx bx-cart-add bx-sm bx-tada-hover"></i>
+                    <div class="comprar" id="${id}">
+                        <p>Stock: ${stock}</p>
+                        <p>/  Price: $${price}</p>
+                        <i class="bx bx-cart-add bx-sm bx-tada-hover"></i>
                     </div>
                     
                 </div>
