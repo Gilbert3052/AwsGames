@@ -19,7 +19,7 @@ function printCart(elementHTML){
                         <i class="bx bx-plus-circle bx-sm" ></i>
                         <p>${amount}</p>
                         <i class="bx bx-minus-circle bx-sm"></i>
-                        <i class="bx bx-trash bx-sm"></i>
+                        <i class="bx bx-trash bx-sm remove"></i>
                     </div>
                 </div>
             </div>

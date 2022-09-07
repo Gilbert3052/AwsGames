@@ -176,6 +176,10 @@ a {
     font-size: 1.1em;
 }
 
+.checkout button.bx-trash {
+    display: none;
+}
+
 .content_cart-show {
     transform: translateX(0);
 } 
