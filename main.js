@@ -4,6 +4,7 @@ import { swiper, swiper1 } from "./js/swip.js";
 import "./js/showMenu.js";
 import "./js/showCart.js";
 import { printCart, cart} from "./js/cart.js";
+import "./js/dark.js";
 
 const contentDestacados = document.querySelector(".destacado_swiper");
 const contentRecent = document.querySelector(".recent_swiper");
